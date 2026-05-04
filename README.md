@@ -3,8 +3,9 @@ Code and analysis pipeline for "Identifying environmental and socioeconomic corr
 
 # Code accompanying the manuscript:
 
-Identifying environmental and socioeconomic correlates for the county-level prevalence of Autism and ADHD using Explainable Artificial Intelligence
-Ria Martins, Yanni Cao, Jianyong Wu
+_Identifying environmental and socioeconomic correlates for the county-level prevalence of Autism and ADHD using Explainable Artificial Intelligence_
+
+Ria Martins, Yanni Cao, Jianyong Wu,
 Division of Environmental Health Sciences, College of Public Health, The Ohio State University
 Submitted to the Journal of Exposure Science & Environmental Epidemiology, 2026.
 
