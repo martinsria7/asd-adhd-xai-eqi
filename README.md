@@ -13,8 +13,8 @@ This repository contains the analysis pipeline used to identify environmental an
 
 # Repository structure
 .
-├── ASD_XGBoost_SHAP.ipynb     # ASD analysis: XGBoost + RFE + SHAP (logit-transformed outcome)
-├── ADHD_XGBoost_SHAP.ipynb    # ADHD analysis: XGBoost + RFE + SHAP
+├── ASD.ipynb     # ASD analysis: XGBoost + RFE + SHAP (logit-transformed outcome)
+├── ADHD.ipynb    # ADHD analysis: XGBoost + RFE + SHAP
 ├── requirements.txt           # Python dependencies
 ├── LICENSE                    # MIT License
 └── README.md                  # This file
@@ -29,10 +29,21 @@ Datasets were merged on county FIPS codes prior to analysis.
 
 # Requirements
 
-Python 3.10 or newer
-See requirements.txt for package versions
+- Python 3.10 or newer
+- See `requirements.txt` for the full list of package versions
 
-Install dependencies with: pip install -r requirements.txt
+Install dependencies with:
+
+    pip install -r requirements.txt
+
+## Core libraries
+
+- `numpy`, `pandas` — data handling
+- `scikit-learn` — cross-validation, hyperparameter search
+- `xgboost` — gradient boosting regression
+- `shap` — model interpretation
+- `matplotlib`, `Pillow` — figures
+- `jupyter` — running the notebooks
 
 # Core libraries:
 
