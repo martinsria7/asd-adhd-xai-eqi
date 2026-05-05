@@ -23,7 +23,9 @@ Each notebook is self-contained and produces the SHAP feature importance plots, 
 
 # Data sources
 
-All datasets used in this study are publicly available. They are not redistributed in this repository; please download them directly from the original sources.
+- ADHD prevalence: https://pmc.ncbi.nlm.nih.gov/articles/PMC10099151/
+- ASD prevalence:  https://pmc.ncbi.nlm.nih.gov/articles/PMC11019892/
+- EPA Environmental Quality Index (EQI): https://cfpub.epa.gov/ncea/risk/recordisplay.cfm?deid=350545
 
 Datasets were merged on county FIPS codes prior to analysis.
 
